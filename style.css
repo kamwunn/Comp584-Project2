@@ -105,6 +105,10 @@ div img {
 		flex: 0 0 44%;
 	}
 
+	.row:nth-child(3) .col-1 {
+    	flex: 0 0 20%;
+  	}
+
 	.col-3 {
         flex: 0 0 68%;
     }
