@@ -128,8 +128,14 @@ div img {
 		order: 3;
 	}
 
-  .col-5 {
-        flex: 0 0 15.2%;
+	.col-5 {
+        flex: 0 0 10%; 
+        transition: flex-grow 0.4s ease-in-out, background-color 0.4s ease; 
+    }
+
+    .col-5:hover {
+        flex-grow: 1; 
+        background-color: #d8b4e2;
     }
 
 }
